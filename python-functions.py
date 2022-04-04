@@ -4,6 +4,11 @@ def sum_to(n):
 print(sum_to(10))
 
 #2
-def largest(arr):
-  for num in arr:
+arr = [1, 2, 3, 4, 0]
+def largest(li):
+  li.sort()
+  return li[-1]
+print(largest(arr))
+
+#3
     
