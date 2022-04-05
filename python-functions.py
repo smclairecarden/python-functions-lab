@@ -11,4 +11,11 @@ def largest(li):
 print(largest(arr))
 
 #3
-    
+
+def occurences(arg1, arg2):
+  count = 1
+  for n in arg1:
+    if n == arg2:
+      count  += 1
+      return count
+print(occurences('fleep floop', 'fe'))
