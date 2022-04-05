@@ -19,3 +19,11 @@ def occurences(arg1, arg2):
       count  += 1
       return count
 print(occurences('fleep floop', 'fe'))
+
+#4
+def product(*args):
+  final = 1
+  for n in args:
+   final *= n
+  return final
+print(product(2, 5, 5))
