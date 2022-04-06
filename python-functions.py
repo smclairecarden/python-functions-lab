@@ -4,21 +4,22 @@ def sum_to(n):
 print(sum_to(10))
 
 #2
-arr = [1, 2, 3, 4, 0]
+
 def largest(li):
   li.sort()
   return li[-1]
-print(largest(arr))
+print(largest([1, 2, 3, 4, 0]))
 
 #3
 
 def occurences(arg1, arg2):
-  count = 1
-  for n in arg1:
-    if n == arg2:
-      count  += 1
-      return count
-print(occurences('fleep floop', 'fe'))
+  # count = 1
+  # for n in arg1:
+  #   if n == arg2:
+  #     count  += 1
+  #     return count
+  return arg1.count(arg2)
+print(occurences('fleep floop', 'oo'))
 
 #4
 def product(*args):
